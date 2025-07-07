@@ -1,0 +1,137 @@
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .page {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .signup-title {
+            font-size: 2em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            height: 340px;
+        }
+
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: rgb(98, 98, 231);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            /* margin-top: 40px; */
+        }
+
+        button:hover {
+            background-color: rgb(41, 19, 245);
+        }
+
+        p {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .countinue-with-google {
+            margin-top: 10px;
+        }
+
+        .countinue-with-google input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .countinue-with-google input::placeholder {
+            color: #383737;
+        }
+
+        .countinue-with-google input:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .countinue-with-google input {
+            background-color: white;
+            color: black;
+        }
+
+        .continue-with-facebook input {
+            background-color: #3b5998;
+            color: white;
+        }
+
+        /* .countinue-with-google input:hover {
+            opacity: 0.9;
+        } */
+        .continue-with-facebook input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        /* .countinue-with-google input:focus {
+            outline: none;
+            border-color: #007bff; */
+
+        .countinue-with-google input::placeholder {
+            color: #383737;
+        }
+
+        .continue-with-facebook input::placeholder {
+            color: white;
+        }
+
+        input {
+            box-shadow: 0px 2px 5px 2px #ccc;
+        }
+
+        .btn-block {
+            margin-top: 20px;
+        }
+
+        .input-block {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }

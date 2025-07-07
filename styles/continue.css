@@ -1,0 +1,213 @@
+  * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'sans-serif', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  }
+
+  .page {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #f0f0f0;
+  }
+
+  form {
+      width: 300px;
+      height: 70vh;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      /* max-width: 600px; */
+  }
+
+  .page-heading-h2 {
+      font-size: 35px;
+      margin-top: -14px;
+      text-align: center;
+  }
+
+  .name-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      margin-bottom: 5px;
+      gap: 0px;
+  }
+
+  .first-name {
+      margin: 10px 0;
+  }
+
+  .last-name {
+      margin: 10px 0;
+  }
+
+  .last-name input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 100%;
+      max-width: 400px;
+      box-shadow: 0px 2px 5px 2px #ccc;
+  }
+
+  .first-name input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 100%;
+      max-width: 400px;
+      box-shadow: 0px 2px 5px 2px #ccc;
+  }
+
+  .gender {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 10px;
+      margin-left: -2px;
+  }
+
+
+  .phone {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      /* margin-bottom: 20px;
+      margin-left: 71px; */
+  }
+
+  .phone input {
+      padding: 10px;
+      /* border: 1px solid #ccc; */
+      border: none;
+      border-radius: 5px;
+      width: 100%;
+      box-shadow: 0px 2px 5px 2px #ccc;
+      /* max-width: 200px; */
+  }
+
+  .phone select {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 100%;
+      box-shadow: 0px 2px 5px 2px #ccc;
+      /* max-width: 200px; */
+  }
+
+  input {
+      /* width: 100%; */
+      /* padding: 10px; */
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      /* margin-bottom: 20px; */
+  }
+
+
+
+  .footer-btn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 15px;
+      /* border-radius: 15px; */
+
+
+      /* width: 80%;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      margin-left: 58px;
+       */
+  }
+
+  /* button {
+            width: 100%;
+            padding: 10px;
+            background-color: rgb(98, 98, 231);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+             margin-top: 40px; 
+        }
+
+        button:hover {
+            background-color: rgb(41, 19, 245);
+        } */
+
+  .footer-pre {
+      width: 255px;
+      height: 30px;
+      border: none;
+      background-color: rgb(98, 98, 231);
+      color: white;
+      font-size: 20px;
+      border-radius: 5px;
+  }
+
+  .footer-pre:hover {
+      background-color: rgb(41, 19, 245);
+  }
+
+
+  .footer-next {
+      width: 255px;
+      height: 30px;
+      border: none;
+       background-color: rgb(98, 98, 231);
+      color: white;
+      font-size: 20px;
+      border-radius: 5px;
+  }
+    .footer-next:hover {
+      background-color: rgb(41, 19, 245);
+  }
+
+
+  .phone>option:first-child {
+      color: red;
+  }
+
+  /* *input {
+      border: none;
+      box-shadow: 0px 2px 5px 2px #ccc;
+  } */
+
+  .gender-input {
+      display: flex;
+      flex-direction: row;
+      gap: 5px;
+      align-items: center;
+      justify-content: center;
+  }
+
+  /* .previous-btn{
+    color: white;
+    background-color: blue;
+    width: 300px;
+  } */
+
+
+
+
+
+  /* 
+  button:hover {
+      background-color: #0056b3;
+  }
+
+ 
